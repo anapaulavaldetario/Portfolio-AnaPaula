@@ -9,9 +9,10 @@ Gostei muito do resultado e você?
  
 ❤ Criação: Ana Paula Valdetário
 
+![image](https://github.com/anapaulavaldetario/Portfolio-AnaPaula/assets/102619370/7a1a8c8d-50ec-4074-a3d4-7531b4318b4e)
 
 
-C:\Users\HP\Desktop\ANA PAULA\Desktop\DevCLUB\Projetos - Ana Paula Valdetário\Em andamento\Portifolio - Ana Paula Valdetário\Portfolio - Ana Paula\image\mobile.png 
+
 
 
 
