@@ -1,5 +1,5 @@
 # 💻 Projeto: Meu Portfólio.
-Neste desenvolvi meu portfólio de acordo com meus conhecimentos.
+Neste projeto desenvolvi meu portfólio de acordo com meus conhecimentos.
 Gostei muito do resultado e você?
 
 🚀  Tecnologia utilizada:
