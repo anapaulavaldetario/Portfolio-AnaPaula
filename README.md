@@ -11,4 +11,7 @@ Gostei muito do resultado e você?
 
 
 
-C:\Users\HP\Desktop\ANA PAULA\Desktop\DevCLUB\Projetos - Ana Paula Valdetário\Em andamento\Portifolio - Ana Paula Valdetário\Portfolio - Ana Paula\image 
+C:\Users\HP\Desktop\ANA PAULA\Desktop\DevCLUB\Projetos - Ana Paula Valdetário\Em andamento\Portifolio - Ana Paula Valdetário\Portfolio - Ana Paula\image\mobile.png 
+
+
+
