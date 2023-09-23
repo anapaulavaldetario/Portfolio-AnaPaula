@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,500;1,600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,500;1,600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!--FIM GOOGLE FONTS-->
-    <!--BOOSTRAP ICONS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!--FIM BOOSTRAP ICONS-->
+    <!-- biblioteca de ícones -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+   integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+   <!--BOOSTRAP ICONS-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <!--FIM BOOSTRAP ICONS-->
+   <!--FONT AWESOME-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+   integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"/>
+  <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/19b72a11f5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <script src="menu.js" defer></script>
 
@@ -41,27 +51,9 @@
                     <button>Contato</button>
                 </a>
             </div> 
+         
+           
 
-            <div class="btn-abrir-menu" id="btn-menu">
-                <i class="bi bi-list"></i>
-            </div>
-
-            <div class="menu-mobile" id="menu-mobile">
-                <div class="btn-fechar">
-                     <i class="bi bi-x-lg"></i>
-                </div>
-
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="Sobre.html">Sobre Mim</a></li>
-                        <li><a href="experiencia.html">Especialidades</a></li>
-                        <li><a href="projetos.html">Projetos</a></li>
-                    </ul>
-                </nav>
-            </div><!--FIM MENU MOBILE-->
-                     <div class="overlay-menu" id="overlay-menu"></div> <!--OVERLAY-->
-        </div><!--FIM DE INTERFACE-->
     </header>
 
     <main>
@@ -69,7 +61,7 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>DESENVOLVEDORA <span>FRONT-END.</span></h1>
+                        <h1>DESENVOLVEDORA <span>FRONT-END</span></h1>
                         <p>
                             Olá Seja Bem-Vindo ao meu portfólio.<br><br>
                             Sou uma profissional especializada no desenvolvimento de aplicações web e interfaces responsivas.<br> 
@@ -83,7 +75,10 @@
                             <a href="https://api.whatsapp.com/send?phone=351927747445">
                                 <button>Entre em Contato</button>
                             </a>
+                        <div class="btn-img">
+                            <img src="./image/linguagem.png">
                         </div>
+                    </div>
 
                     </div><!--FIM TXT-TOPO-SITE-->
 
@@ -126,7 +121,7 @@
 
         <section class="especialidades">
             <div class="interface">
-                <h1>MINHAS <span>ESPECIALIDADES.</span></h1>
+                <h1>MINHAS <span>ESPECIALIDADES</span></h1>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
@@ -163,17 +158,55 @@
         
         <section class="portfolio">
             <div class="interface">
-                <h1 class="titulo">MEU <span>PORTFÓLIO.</span></h1>
-                <div class="flex">
-                    <div class="img-port" style="background-image: url(./image/img1.png);">
-                        <div class="overlay">Projeto 1</div>
+                <h1 class="titulo">MEU <span>PORTFÓLIO</span></h1>
+                
+                <div class="links-projetos">
+                <a href="https://anapaulavaldetario.github.io/Projeto-Happy-Day/" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Happy Day</h2>
+                        <span class="icons"><img src="image/happy.png"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
                     </div>
-                    <div class="img-port" style="background-image: url(./image/img2.png);">
-                        <div class="overlay">Projeto 2</div>
+                </a>
+                <a href="https://anapaulavaldetario.github.io/projeto-faculdade-algarve/" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Faculdade Algarve</h2>
+                        <span class="icons"><img src="image/faculdade.png"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
                     </div>
-                    <div class="img-port" style="background-image: url(./image/img3.png);">
-                        <div class="overlay">Projeto 3</div>
+                </a>
+                <a href="https://conversor-de-moeda-ashy.vercel.app/" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Conversor de Moeda</h2>
+                        <span class="icons"><img src="image/money.png"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
                     </div>
+                </a>
+                <a href="https://anapaulavaldetario.github.io/projetolampadaJS/" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Lâmpada</h2>
+                        <span class="icons"><img src="image/luz.png"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
+                    </div>
+                </a>
+               
+                <a href="https://anapaulavaldetario.github.io/semafaro/" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Semafáro</h2>
+                        <span class="icons"><img src="image/semafaro.jpg"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
+                    </div>
+                </a>
+
+                <a href="" class="box" target="_blank">
+                    <div class="box-content">
+                        <h2>Projeto 6</h2>
+                        <span class="icons"><img src="image/musica.png"></span>
+                        <span class="text-link">Usando HTML, CSS e JavaScript</span>
+                    </div>
+                </a>
+                
+            </div>
                 </div><!--FIM FLEX-->
             </div><!--FIM INTERFACE-->
         </section><!--FIM portfolio-->
@@ -200,6 +233,16 @@
             </div><!--container-->
         </section>
 
+        <a
+        href="https://api.whatsapp.com/send?phone=351927747445"
+        target="_blank"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Fale conosco pelo Whatsapp"
+        class="vibrate-1 tp">
+      
+        <i style="margin-top: 20px" class="fa-2x fa fa-whatsapp"></i>
+      </a>
     </main>
 
     <footer>

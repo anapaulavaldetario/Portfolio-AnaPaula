@@ -24,6 +24,7 @@ body{
     
 }
 
+
 .btn-contato button{
     padding: 10px 40px;
     font-size: 20px;
@@ -36,6 +37,13 @@ body{
     transition: .2s;
     margin-bottom: 20px;
     margin-right: 100px;
+}
+
+.btn-contato img{
+    
+    width: 70%;
+     
+    
 }
 
 
@@ -62,7 +70,7 @@ header > .interface{
 header a{
     color: #fff;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 600;
     display: inline-block;
     transition: .4s;
@@ -85,78 +93,7 @@ padding: 0px 28px;
 
 
 /*MENU MOBILE*/
-.btn-abrir-menu i{
-    color: #7d46ed;
-    font-size: 60px;
-}
 
-
-.menu-mobile{
-    background-color: #8c6ace;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 9999999;
-    width: 0%;
-    overflow: hidden;
-    cursor: pointer;
-    transition: .2s;
-    
-}
-
-.menu-mobile.abrir-menu{
-    width: 70%;
-
-}
-
-.menu-mobile.btn-abrir-menu ~ .overlay-menu {
- display: block;
-}
-
-.menu-mobile nav ul{
-    text-align: right;
-    }
-
-.menu-mobile nav ul li a{
-    text-align: right;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 20px 4%;
-    display: block;
-    }
-
-.menu-mobile nav ul li a:hover{
-background-color: #7d46ed;
-color:#000
-
-
-}
-.menu-mobile .btn-fechar{
-    padding: 20px 5%;
-}
-
-.menu-mobile .btn-fechar i{
-color:#7d46ed;
-font-size: 30px;
-padding: 20px 8%;
-}
-
-.overlay-menu{
-    background-color: #00000052;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 88888;
-    display: none;
-}
-
-.btn-abrir-menu{
-    display: none;
-}
 
 /*TOPO DO SITE*/
 
@@ -195,10 +132,12 @@ section .topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    width: 420px;
-    height: 460px;
+    height: 45%;
+    margin-top: 50px ;
+    
       
 }
+
 
 @keyframes flutuar{
     0%{
@@ -244,7 +183,7 @@ span {
 }
 
 .especialidades .especialidades-box:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 0 0 20px #ffffff8a;
 }
 
@@ -275,8 +214,8 @@ section.sobre .interface{
 }
 
 section .img-sobre img{
-    height: 400px;
-    width: 320px;
+    
+    width: 90%;
 }
 
 section.sobre .flex{
@@ -367,6 +306,8 @@ padding: 30px 4%;
     position: relative;
 }
 
+
+
 .img-port:hover{
     background-position: 100% 100%;
 }
@@ -394,7 +335,7 @@ padding: 30px 4%;
 
 section.portfolio .flex{
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
@@ -407,7 +348,7 @@ form{
     height: 550px;
     padding: 40px;
     border-radius: 20px;
-    margin-top: 150px;
+    margin-top: 40px;
           
 }
 
@@ -526,6 +467,98 @@ footer > .interface .logo-footer img{
 }
 
 
+
+
+/*LINKS */
+.links-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    align-items: center;
+    gap: 1.5rem;
+    width: 95%;
+    margin: 30px;
+}
+
+.box {
+    text-align: center;
+    min-height: 250px;
+    min-width: 320px;
+    border: 5px solid #8c52ff;;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+
+}
+
+.box:hover {
+    border-color: #fff;
+}
+
+.box:active {
+    border-color: #ffffff;
+}
+
+.box-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.text-link {
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-content img {
+    width: 80px;
+    transition: all .45s ease;
+    color: #FF0077;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.box-content img:hover {
+    height: 90px;
+    width: 90px;
+}
+
+
+/*WHATTSAPP*/
+.tp{
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1000;
+  }
+  
+  .tp:hover{
+    color: #e2fcef;  
+    background-color: #23f008;
+  }
+
+
 /*MEDIA SCREEN*/
 
 @media screen and (max-width: 1020px){
@@ -560,31 +593,33 @@ h1.titulo {
 
 
 /* CABEÇALHO */
-.menu-desktop,
-.btn-contato {
+.menu-desktop{
     display: none;
 }
 
-
-/*MENU-MOBILE*/
-.btn-abrir-menu{
-    display: block;
+.btn-contato button{
+    margin-left: 20%;
 }
+
+.btn-contato img{
+    width: 100%;
+}
+/*MENU-MOBILE*/
 
 
 /* TOPO DO SITE */
 
 section.topo-do-site .flex {
-    gap: 20px;
+    gap: 10px;
 }
 
 section.topo-do-site {
-    padding: 20px 8%;
+    padding: 20px 4%;
 }
 
 .topo-do-site h1 {
     font-size: 32px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -594,6 +629,7 @@ section.topo-do-site {
 
 .topo-do-site .img-topo-site img {
     width: 100%;
+    margin-top: 10px;
 }
 
 /* ESPECIALIDADES */
@@ -609,15 +645,22 @@ section.especiliadades {
 
 .especialidades .interface h1{
     display: block;
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
     
 }
 
+.especialidades .interface h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
 
 /* SOBRE */
 section.sobre {
-    padding: 40px 8%;
+    padding: 40px 4%;
 }
 
 .sobre .txt-sobre h2 {
@@ -640,40 +683,35 @@ section.sobre {
 
 .img-sobre img{
     width: 100%;
+    margin-top: 20px;
+    margin-left: 6%;
 }
+
+
+
 
 
 /* PORTFÓLIO */
-section.portfolio {
-    padding: 40px 8%;
-}
-
-.img-port {
+.links-projetos {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
+    margin-top: 40px;
+    
 }
 
-section.portfolio .flex {
-   gap: 40px;
+section.portfolio .interface h1{
+    font-size: 34px;
 }
-
-section.formulario .interface h1{
-    display: block;
-    font-size: 32px;
-    text-align: center;
-    color:#fff;
-}
-
 
 /*FORMULARIO*/
 section.form-container .container{
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
+    
     }
-
-
+    
 .btn-enviar button{
     margin-right: 150px;
 }
@@ -683,7 +721,7 @@ section.form-container .container{
 /* RODAPÉ */
 footer .flex {
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 footer .line-footer {
