@@ -598,7 +598,8 @@ h1.titulo {
 }
 
 .btn-contato button{
-    margin-left: 20%;
+    margin-left: 15%;
+    
 }
 
 .btn-contato img{
@@ -678,8 +679,10 @@ section.sobre {
 .btn-social{
     text-align: center;
     margin-top: 70px;
-
+   
+    
 }
+
 
 .img-sobre img{
     width: 100%;
@@ -715,6 +718,23 @@ section.form-container .container{
 .btn-enviar button{
     margin-right: 150px;
 }
+
+/*WHATTSAPP*/
+.tp{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 10px;
+    right: 25px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 21px;
+    z-index: 1000;
+}
+
+
 
 
 
